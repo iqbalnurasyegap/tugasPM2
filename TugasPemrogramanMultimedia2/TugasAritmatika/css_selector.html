@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="stylesheet" href="/TugasPemrogramanMultimedia2/TugasAritmatika/css_selector.css">
+</head>
+<body>
+    <h1 id="judul">Contoh Penggunaan CSS Selector</h1>
+    <h1 class="sub-judul">Aku Sayang Kamu</h1>
+    <table  style="border: double;" cellspacing = 7>
+        <tr>
+            <td>Angka 1</td>
+            <td>:</td>
+            <td><input type="text" placeholder="Angka 1" id="angka1"></td>
+        </tr>
+        <tr>
+            <td>Angka 2</td>
+            <td>:</td>
+            <td><input type="text" placeholder="Angka 2" id="angka2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>:</td>
+            <td>
+                <button onclick="tambah()">+</button>&nbsp;
+                <button onclick="kurang()">-</button>&nbsp;
+                <button onclick="kali()">*</button>&nbsp;
+                <button onclick="bagi()">/</button>&nbsp;
+                <button onclick="hasilBagi()">%</button>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>Hasil</td>
+            <td>:</td>
+            <td align="center">
+                <label for="Hasil" id="hasil">
+                    <font style="font-size: 24pt; font-weight: bold;">0</font>
+                </label>
+            </td>
+        </tr>
+    </table>
+
+    <script src="/TugasPemrogramanMultimedia2/TugasAritmatika/aritmatika.js"></script>
+</body>
+</html>
